@@ -1,0 +1,153 @@
+// *
+//   box-sizing border-box
+  
+// body
+//   min-height 100vh
+//   display grid
+//   place-items center
+//   background hsl(0, 0%, 10%)
+  
+// .item:before
+//   content ''
+//   position absolute
+//   height 100%
+//   width 100%
+//   background hsl(0, 0%, 5%)
+//   border 2px solid white
+//   top 0
+//   left 0
+  
+// .item__content
+//   transform translate(-5%, -5%)
+//   transition transform 0.2s
+  
+// .item__content
+//   display: flex;
+//   flex-direction: column;
+//   justify-content: center;
+//   align-items: center;
+//   text-align: center;
+  
+//  &:hover
+//     transform translate(0, 0)
+  
+  
+// .major-mono display-regular {
+//   font-family: "Major Mono Display", monospace;
+//   font-weight: 400;
+//   font-style: normal;
+// }
+
+// .squada-one-regular {
+//   font-family: "Squada One", sans-serif;
+//   font-weight: 400;
+//   font-style: normal;
+// }
+
+// .share-tech-regular {
+//   font-family: "Share Tech", sans-serif;
+//   font-weight: 400;
+//   font-style: normal;
+// }
+
+// .title
+//   font-size: 100%;
+//   font-family: "Share Tech";
+  
+// .para{
+//   font-size: 250%;
+//   font-family: "Squada One";
+  
+//   &:hover {
+//     &:before {
+//       animation: glitch .3s cubic-bezier(.25, .46, .45, .94) both 5
+//     }
+//     &:after {
+//       animation: glitch .3s cubic-bezier(.25, .46, .45, .94) reverse both 5
+//     }
+//   }
+// }
+
+
+// @keyframes glitch {
+// 	0% {
+// 		transform: translate(0)
+// 	}
+// 	20% {
+// 		transform: translate(-5px, 5px)
+// 	}
+// 	40% {
+// 		transform: translate(-5px, -5px)
+// 	}
+// 	60% {
+// 		transform: translate(5px, 5px)
+// 	}
+// 	80% {
+// 		transform: translate(5px, -5px)
+// 	}
+// 	to {
+// 		transform: translate(0)
+// 	}
+// }
+  
+  
+ *
+  box-sizing border-box
+
+body
+  min-height 100vh
+  display grid
+  place-items center
+  background hsl(0, 0%, 10%)
+
+.item:before
+  content ''
+  position absolute
+  height 100%
+  width 100%
+  background hsl(0, 0%, 5%)
+  border 2px solid white
+  top 0
+  left 0
+
+.item__content
+  transform translate(-5%, -5%)
+  transition transform 0.2s
+
+.item__content
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+ &:hover
+    transform translate(0, 0)
+
+.major-mono-display-regular {
+  font-family: "Major Mono Display", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.squada-one-regular {
+  font-family: "Squada One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.share-tech-regular {
+  font-family: "Share Tech", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.title
+  font-size: 100%;
+  font-family: "Share Tech";
+
+.para {
+  font-size: 250%;
+  font-family: "Squada One";
+}
+

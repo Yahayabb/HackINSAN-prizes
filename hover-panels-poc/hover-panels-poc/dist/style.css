@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  background: #1a1a1a;
+}
+.item:before {
+  content: '';
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: #0d0d0d;
+  border: 2px solid #fff;
+  top: 0;
+  left: 0;
+}
+.item__content {
+  transform: translate(-5%, -5%);
+  transition: transform 0.2s;
+}
+.item__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+:hover {
+  transform: translate(0, 0);
+}
+.major-mono-display-regular {
+  font-family: "Major Mono Display", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+.squada-one-regular {
+  font-family: "Squada One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.share-tech-regular {
+  font-family: "Share Tech", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.title {
+  font-size: 100%;
+  font-family: "Share Tech";
+}
+.para {
+  font-size: 250%;
+  font-family: "Squada One";
+}

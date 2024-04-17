@@ -1,0 +1,35 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Share+Tech&family=Squada+One&display=swap" rel="stylesheet">
+
+- 
+  const CASES = [
+    {
+      title: 'First Place',
+      para: "RM1,000"
+    },
+    {
+      title: 'Second Place',
+      para: 'RM500'
+    },
+    {
+      title: 'Third Place',
+      para: 'RM250'
+    },
+    {
+      title: 'Special Award',
+      para: 'RM200'
+    },
+        {
+      title: 'Special Award',
+      para: 'RM200'
+    },
+  ]
+  
+.grid.grid-flow-col.auto-cols-max.gap-6
+  - for (const item of CASES)
+    .grid__item.item.w-40.h-40.text-white.relative.text-center
+      .item__content.h-full.w-full.p-4.bg-black.relative.border-2
+        .title.font-bold.mb-2= item.title
+        p.para= item.para
+
